@@ -1,8 +1,3 @@
-apt install cvs
-cvs -d:pserver:anonymous@tidy.cvs.sourceforge.net:/cvsroot/tidy login
-cvs -z3 -d:pserver:anonymous@tidy.cvs.sourceforge.net:/cvsroot/tidy co -P tidy
-echo -e "\n"
-
 $tidy_dir = tidy
 
 #Tidy
