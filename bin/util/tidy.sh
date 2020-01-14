@@ -9,6 +9,8 @@ make
 
 BUILD_DIR=$1
 export PATH=$tidy_dir/bin:$PATH
+echo $PATH
+
 
 # /app/php/bin/phpize
 # make
