@@ -14,5 +14,3 @@ make
 BUILD_DIR=$1
 ln -s $BUILD_DIR/.heroku /app/.heroku
 export PATH=/app/.heroku/php/bin:$PATH
-echo "important extension tidy into php.ini"
-echo "extension=tidy.so" >> /app/.heroku/php/etc/php/php.ini
