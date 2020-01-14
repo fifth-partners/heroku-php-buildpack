@@ -1,4 +1,4 @@
-$tidy_dir = tidy
+tidy_dir=tidy
 
 #Tidy
 cd $tidy_dr/build/gmake
