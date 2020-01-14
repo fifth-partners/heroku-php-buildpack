@@ -139,6 +139,7 @@ export PATH=${OUT_PREFIX}/bin:$PATH
 	--enable-fpm \
 	--with-bz2 \
 	--with-curl \
+	--with-tidy \ #NFD ADDED. 
 	--with-pdo-mysql \
 	--with-mysqli \
 	--with-openssl \
