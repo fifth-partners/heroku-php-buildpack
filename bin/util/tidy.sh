@@ -10,7 +10,3 @@ make
 # /app/php/bin/phpize
 # make
 # make install
-
-BUILD_DIR=$1
-ln -s $BUILD_DIR/.heroku /app/.heroku
-export PATH=/app/.heroku/php/bin:$PATH
