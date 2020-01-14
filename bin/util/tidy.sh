@@ -11,7 +11,7 @@ BUILD_DIR=$1
 export PATH=$tidy_dir/bin:$PATH
 echo $PATH
 
-
+pecl install tidy
 # /app/php/bin/phpize
 # make
 # make install
