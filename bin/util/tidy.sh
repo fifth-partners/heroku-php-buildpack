@@ -8,9 +8,7 @@ cd $tidy_dir/build/gmake
 make
 
 BUILD_DIR=$1
-export PATH=$tidy_dir/bin
-
-php --ini
+export PATH=$tidy_dir/bin:$PATH
 
 # /app/php/bin/phpize
 # make
