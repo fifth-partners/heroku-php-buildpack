@@ -1,7 +1,7 @@
 tidy_dir=tidy
 
 #Tidy
-cd $tidy_dr/build/gmake
+cd $tidy_dir/build/gmake
 make
 
 # /app/php/bin/phpize
