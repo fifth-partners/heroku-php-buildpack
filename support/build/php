@@ -130,7 +130,7 @@ if [[ $dep_version == 7.* ]]; then
 else
 	configureopts+=("--with-mcrypt${mcrypt_prefix:+"="}${mcrypt_prefix}" "--with-mysql=shared")
 fi
-
+configureopts+=("--with-tidy")
 export PATH=${OUT_PREFIX}/bin:$PATH
 # cannot be built shared: date, ereg, opcache (always), pcre, reflection, sockets (?), spl, standard,
 # sqlite3 and pdo_sqlite are on by default but we're building them shared on purpose
