@@ -106,6 +106,8 @@ else
 	fi
 fi
 
+apt-get install libtidy-dev libtidy5 php-tidy #NFD Added. 
+
 configureopts=()
 if [[ $dep_version == 7.* ]]; then
 	configureopts+=("--enable-opcache-file")
