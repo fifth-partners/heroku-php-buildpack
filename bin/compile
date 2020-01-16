@@ -49,7 +49,6 @@ source $bp_dir/bin/util/blackfire.sh
 
 #NFD ADDED#
 source $bp_dir/bin/util/tidy.sh
-source $bp_dir/bin/util/fresh_os.sh
 ####
 
 # if this is set it prevents Git clones (e.g. for Composer installs from source) during the build in some circumstances, and it is set in SSH Git deploys to Heroku
